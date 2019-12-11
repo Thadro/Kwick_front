@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Kwick!</title>
+		<link rel="stylesheet" href="./CSS/style.css">
+	</head>
+	<body>
+
+		<!---------Accueil---------->
+
+		<section id="accueil">
+			<div id="accueil-ctnr">
+				<h1>Welcome to Kwick!</h1>
+				<div id="btn-sign">
+					<input class="sign" id="sign-up" type="button" value="Register">
+					<input class="sign" id="sign-in" type="button" value="Sign In">				
+				</div>
+			</div>
+		</section>
+
+		<!---------Sign Up---------->
+
+		<section id="sign-up-main-ctnr">
+			<div id="sign-up-ctnr">
+				<h1>Kwick!</h1>
+					<input type="text" id="sign-up-identifiant" placeholder="  User name">
+					<input type="text" id="sign-up-mdp" placeholder="  Password">
+					<input type="text" id="sign-up-mdp-confirm" placeholder="  Confirm your password">
+						<div id="btn-sign-up">
+							<input class="sign" id="sign-up" type="button" value="Register">
+						</div>
+			</div>
+		</section>
+
+		<!---------Sign In---------->
+
+		<section id="sign-in-main-ctnr">
+			<div id="sign-in-ctnr">
+				<h1>Kwick!</h1>
+					<input type="text" id="sign-in-identifiant" placeholder="  User name">
+					<input type="text" id="sign-in-mdp" placeholder="  Password">							
+							<input class="sign" id="sign-up" type="button" value="Login">
+						</div>
+			</div>
+		</section>
+
+	
+		<!---------Chat---------->
+	<section id="section-header-chat">
+		<header>
+				<div id="logo-section">
+						<img src="./image/kwick-logo.png">
+					</div>
+					
+					<h1>Kwick!</h1>
+			
+					<div id="button-ctnr">
+						<i class="fas fa-power-off"></i>
+						<button>Logout</button>
+					</div>
+		</header>
+	</section>
+
+		<section id="chat-ctnr">
+			
+				<div id="online-user">
+					<div class="user"></div>
+						<div class="item-contact">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Random contact</p>
+						</div>
+						<div class="item-contact">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Random contact</p>
+						</div>
+						<div class="item-contact">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Random contact</p>
+						</div>
+						<div class="item-contact">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Random contact</p>
+						</div>
+						<div class="item-contact">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Random contact</p>
+						</div>
+						<div class="item-contact">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Random contact</p>
+						</div>
+						<div class="item-contact">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Random contact</p>
+						</div>
+				</div>
+				<div id="chat-online-user">
+					<div id="window-chat">
+						<div class="item-chat-left">
+							<img src="./image/compte-utilisateur-1.png" alt="image d'utilisateur">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis tempora asperiores consequuntur quod veritatis repudiandae explicabo eligendi iusto praesentium quaerat molestias debitis tempore sed ipsa corporis assumenda alias, odit nemo?</p>
+						</div>
+						<div class="item-chat-right">
+							<img src="./image/romain.jpg" alt="image d'utilisateur">
+							<p>Oui et d'ailleurs j'adore Thierry Tranchina.</p>
+						</div>
+					</div>
+						<div id="submit-ctnr">
+							<textarea id="write-text" rows="6" cols="150"></textarea>
+							<input type="button" value="Send" id="btn-submit" />
+						</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		
+		
+		
+		<!-- integration de l'interface -->
+		<!--<button id="bt_ping">PING</button>-->
+		<script src="./src/jquery.js"></script>
+		<script src="./src/kwick.js"></script>
+		<script src="./src/all.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				app.init();
+			});
+		</script>
+		<!-- ------------------------ -->
+
+	</body>
+</html>

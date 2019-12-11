@@ -1,0 +1,356 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* ------Accueil------ */
+
+h1{
+    width: 80%;
+    height: auto;
+    padding: 0 10%;
+    color: #0293b4;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+#accueil{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right, #26b6b4, #0293b4);
+   display: none;
+
+}
+
+#accueil-ctnr{
+    width: 80%;
+    padding-bottom: 15px;
+    background-color: #F7F7F2;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign{
+    background-color: #0293b4;
+    width: 120px;
+    margin: 10px 0;
+    color: #F7F7F2;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid;
+}
+
+
+/* ------Sign Up------ */
+
+#sign-up-main-ctnr{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #26b6b4, #0293b4);
+    display: none;
+}
+
+
+
+#sign-up-ctnr{
+    width: 500px;
+    height: auto;
+    background-color: #F7F7F2;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: 0;
+    font-size: 100px;
+    color: #0293b4;
+}
+
+#sign-up{
+    background-color: #0293b4;
+    width: 120px;
+    color: #F7F7F2;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #F7F7F2;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+#sign-up-identifiant{
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+#sign-up-mdp{
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+#sign-up-mdp-confirm{
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+/* ------Sign In------ */
+
+#sign-in-main-ctnr{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #26b6b4, #0293b4);
+    display: none;
+}
+
+
+
+#sign-in-ctnr{
+    width: 500px;
+    height: auto;
+    background-color: #F7F7F2;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: 0;
+    font-size: 100px;
+}
+
+#sign-in{
+    background-color: #0293b4;
+    width: 120px;
+    color: #F7F7F2;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #F7F7F2;
+    border-radius: 2px;
+    margin-bottom: 15px;
+}
+
+#sign-in-identifiant{
+    margin: 15px 0;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+#sign-in-mdp{
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+
+/* ------Logout------ */
+
+/* .logout{
+    border: 1px solid white;
+    height: auto;
+    width: 100px;
+    display: none;
+} */
+
+
+/* ------Chat------ */
+
+#section-header-chat{
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+
+    border-bottom: 2px solid #F7F7F2;
+    background-color: #F7F7F2;
+}
+
+header > h1{
+    color: #26b6b4;
+}
+
+#logo-section{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#logo-section > img{
+    height: 50px;
+}
+
+#button-ctnr{
+    margin-right: 2%;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 1.2em;
+
+    border: 2px solid #F7F7F2;
+    border-radius: 4%;
+    background-color: #26b6b4;
+}
+
+#button-ctnr > button{
+    border: none;
+
+    color: white;
+    font-size: 1.2em;
+
+    background-color: #26b6b4;
+}
+
+#chat-ctnr{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to right, #26b6b4, #0293b4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#chat-main-ctnr{
+    width: 90%;
+    height: 90%;
+    background-color: #F7F7F2;
+    display: flex;
+    align-items: center;
+}
+
+#online-user{
+    width: 20%;
+    height: 90%;
+    margin-left: 30px;
+    background-color: #F7F7F2;
+    color: black;
+    border-radius: 10px;
+}
+
+.item-contact{
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #0293b4;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+    margin: 20px 0 20px 10px;
+}
+#chat-online-user{
+    width: 70%;
+    height: 90%;
+    margin-left: 70px;
+    background-color: #F7F7F2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#window-chat{
+    margin: auto;
+    width: 95%;
+    height: 70%;
+    background-color: white;
+    border: 1px solid #F7F7F2;
+    display: flex;
+    flex-direction: column;
+}
+
+#window-chat > .item-chat-left{
+    height: auto;
+    width: 50%;
+    margin: 10px 30px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    display: flex;
+}
+#window-chat > .item-chat-right{
+    height: auto;
+    width: 30%;
+    margin: 10px 0;
+    padding: 10px;
+    margin-left: 65%;
+    background-color: #0293b4;
+    color: white;
+    border-radius: 30px;
+    opacity: 0.9;
+    display: flex;
+}
+
+.item-chat-left > img{
+    margin: 0;
+}
+
+.item-chat-left > p{
+    margin: 1px;
+    margin-left: 20px;
+}
+
+.item-chat-right > img{
+    margin: 0;
+    border-radius: 50px;
+}
+
+.item-chat-right > p{
+    margin: 1px;
+    margin-left: 20px
+}
+
+#submit-ctnr{
+    display: flex;
+}
+
+#btn-submit{
+    height: 60px;
+    width: 120px;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    background-color: #26b6b4;
+}
+
+#write-text{
+    margin: 0 5% 5% 0%
+}
+
+
